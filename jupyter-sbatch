@@ -26,7 +26,7 @@ autossh -N -L ${port}:${node}:${port} ${user}@m3.massive.org.au
 
 
 Paste this URL into your local browser to access the jupyter notebook: 
-https://localhost:${port}  (prefix w/ https:// if using password)
+localhost:${port}  (tou may need to prefix this with https:// if using password)
 "
 
 # Load modules or conda environments here
